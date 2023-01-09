@@ -96,7 +96,7 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #000!important;
   text-decoration: none;
 }
 
@@ -104,4 +104,12 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.productImg {
+  width: 100%;
+}
+
+.product {
+  color: #000;
 }
