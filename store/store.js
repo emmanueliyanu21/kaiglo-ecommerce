@@ -5,8 +5,12 @@ import { createLogger } from 'redux-logger'
 
 const loggerMiddleware = createLogger()
 
+const initialState = {
+}
+
 const store = createStore(
   rootReducer,
+  initialState,
   applyMiddleware(
     thunkMiddleware,
     loggerMiddleware
