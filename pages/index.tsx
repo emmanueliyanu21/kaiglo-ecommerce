@@ -3,7 +3,6 @@ import { Provider } from "react-redux";
 import Head from "next/head";
 import HomePage from "../screen/home";
 import store from "../store/store";
-// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -16,12 +15,7 @@ export default function Home() {
       </Head>
       <main>
         <Provider store={store}>
-        <HomePage />
-          {/* <Router>
-        <Routes>
-          
-          <Routes>
-            </Router> */}
+          <HomePage />
         </Provider>
       </main>
     </>
