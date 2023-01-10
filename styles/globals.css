@@ -87,12 +87,6 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
 
 a {
@@ -108,9 +102,18 @@ a {
 }
 
 .productImg {
+  max-width: 500px!important;
   width: 100%;
+  min-height: 300px!important;
+  max-height: 301px!important;
 }
 
 .product {
   color: #000;
+}
+
+.productText {
+  width: 250px;
+  white-space: nowrap;
+  overflow:scroll;
 }
