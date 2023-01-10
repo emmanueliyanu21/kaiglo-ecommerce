@@ -12,18 +12,21 @@ import {
 } from "react-bootstrap";
 import Loader from '../../components/Loading'
 
-export interface IRate {
+type IRate = {
   rate: number;
   count: number;
 }
 
-export interface IProduct {
-  title: string;
-  image: string;
-  description: string;
-  category: string;
-  price: number;
-  rating: IRate;
+type IProduct = {
+  title: string
+  image: string
+  description: string
+  category: string
+  price: number
+  rating: {
+    rate: number;
+  count: number;
+  }
 }
 
 export default function Product() {
@@ -102,7 +105,7 @@ export default function Product() {
                     <Row>
                       <Col>Status: </Col>
                       <Col>
-                        {product?.rating?.count > 0
+                      { product?.rating.count 
                           ? "In stock"
                           : "Out of stock"}
                       </Col>
