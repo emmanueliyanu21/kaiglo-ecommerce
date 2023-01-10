@@ -112,29 +112,6 @@ export default function Product() {
                     </Row>
                   </ListGroup.Item>
 
-                  {/* {product?.rating.count > 0 && (
-                  <ListGroup.Item>
-                    <Row>
-                      <Col>Qty</Col>
-                      <Col>
-                        <Form.Control
-                          as='select'
-                          value={qty}
-                          onChange={e => {
-                            setQty(e.target.value);
-                          }}
-                        >
-                          {[...Array(product.rating.count).keys()].map(x => (
-                            <option key={x + 1} value={x + 1}>
-                              {x + 1}
-                            </option>
-                          ))}
-                        </Form.Control>
-                      </Col>
-                    </Row>
-                  </ListGroup.Item>
-                )} */}
-
                   <ListGroup.Item>
                     <Button
                       onClick={addToCartHandler}
