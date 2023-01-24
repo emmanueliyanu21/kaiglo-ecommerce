@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import Loader from '../components/Loading'
+import Loader from "../components/Loading";
 import { useDispatch, useSelector } from "react-redux";
 import Product from "../components/Product";
 import { listProducts } from "../actions/productAction";
@@ -19,18 +19,16 @@ function HomePage() {
     <Container>
       <h1>Latest Products</h1>
       {loading ? (
-          <Loader />
+        <Loader />
       ) : (
         <Row>
-        {products.map((product) => (
-          <Col key={product.id} sm={12} md={6} lg={4} xl={3}>
-            <Product product={product} />
-          </Col>
-        ))}
-      </Row>
-      )
-        }
-      
+          {products.map((product) => (
+            <Col key={product.id} sm={12} md={6} lg={4} xl={3}>
+              <Product product={product} />
+            </Col>
+          ))}
+        </Row>
+      )}
     </Container>
   );
 }

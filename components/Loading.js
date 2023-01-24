@@ -12,9 +12,8 @@ const Message = () => {
         margin: "auto",
         display: "block",
       }}
-    >
-    </Spinner>
-  ); 
+    ></Spinner>
+  );
 };
 
 export default Message;

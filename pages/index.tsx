@@ -9,8 +9,8 @@ export default function Home() {
     <>
       <Head>
         <title>Kaiglo Ecommerce</title>
-        <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
-        <meta name="google" content="notranslate" key="notranslate" />
+        <meta name="description" content="Buy things at my store" key="sitelinks" />
+        <meta name="google" content="My clothing store" key="notranslate" />
         <link
           rel="canonical"
           href="https://cozy-puppy-0f6c3e.netlify.app/"
