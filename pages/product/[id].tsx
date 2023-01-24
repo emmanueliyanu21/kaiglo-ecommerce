@@ -58,14 +58,9 @@ export default function Product() {
 
   return (
     <Container fluid>
-       <title> { product?.title } - clothing and equipments store</title>
+       <title> { product?.title } - total-store</title>
         <meta name="description" content={`${product?.title}`} key="sitelinks" />
         <meta property='og:title' content={`${product?.title} - My clothing and equipment store`}  />
-        <link
-          rel="canonical"
-          href="https://total-store.netlify.app/"
-          key="canonical"
-        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       <>

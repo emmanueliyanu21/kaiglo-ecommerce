@@ -8,15 +8,9 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Kaiglo Ecommerce</title>
+        <title>Total-store</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description" content="Buy things at my store" key="sitelinks" />
-        <meta name="google" content="My clothing store" key="notranslate" />
-        <link
-          rel="canonical"
-          href="https://total-store.netlify.app.netlify.app/"
-          key="canonical"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
