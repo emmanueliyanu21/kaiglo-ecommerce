@@ -63,7 +63,7 @@ export default function Product() {
         <meta property='og:title' content={`${product?.title} - My clothing and equipment store`}  />
         <link
           rel="canonical"
-          href="https://wizkidstore.netlify.app/"
+          href="https://total-store.netlify.app/"
           key="canonical"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

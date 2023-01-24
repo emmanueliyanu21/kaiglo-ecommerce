@@ -13,7 +13,7 @@ export default function Home() {
         <meta name="google" content="My clothing store" key="notranslate" />
         <link
           rel="canonical"
-          href="https://cozy-puppy-0f6c3e.netlify.app/"
+          href="https://total-store.netlify.app.netlify.app/"
           key="canonical"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
